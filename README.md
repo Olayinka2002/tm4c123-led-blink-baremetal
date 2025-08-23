@@ -33,7 +33,7 @@ An external LED is connected to **PA3**, and a push button is connected to **PD5
 
 ---
 
-##How to Run
+## How to Run
 - Simply connect a jumper wire on the configured pin of the TM4C123GH6PM to a resistor, then the resistor to the anode of the LED and the cathode to gnd.
 - connect the usb cord from computer to power up the microcontroller.
 - Ensure that the microcontroller is turned on debug
