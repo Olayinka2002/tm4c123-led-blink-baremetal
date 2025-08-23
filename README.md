@@ -28,17 +28,17 @@ An external LED is connected to **PA3**, and a push button is connected to **PD5
 ---
 
 ## Code Structure
-//Main.c -> LED pin initialization. Led toggle function which toggles the pin from 1 to 0 continuously with a delay of 500ms in between using polling
-//Led.c -> LED Pin declaration function: PA3 used as output wihout any alternate function implementation. The file also includes the toggle function which simply toggles the pin from 1 to 0
+-Main.c -> LED pin initialization. Led toggle function, which toggles the pin from 1 to 0 continuously with a delay of 500ms in between using polling
+-Led.c -> LED Pin declaration function: PA3 used as output without any alternate function implementation. The file also includes the toggle function, which simply toggles the pin from 1 to 0
 
 ---
 
 ## How to Run
-- Simply connect a jumper wire on the configured pin of the TM4C123GH6PM to a resistor, then the resistor to the anode of the LED and the cathode to gnd.
-- connect the usb cord from computer to power up the microcontroller.
+- Simply connect a jumper wire on the configured pin of the TM4C123GH6PM to a resistor, then the resistor to the anode of the LED, and the cathode to ground.
+- Connect the USB-Cord from the computer to power up the microcontroller.
 - Ensure that the microcontroller is turned on debug
-- Using Keil Uvision, with the cross compiler and debugger, dowloaded the code to the flash memory of microcontroller
-- If properly setup, the led should start blinking
+- Using Keil Uvision, with the cross compiler and debugger, downloaded the code to the flash memory of the  microcontroller
+- If properly set up, the LED should start blinking
 
 [Watch the demo video][https://drive.google.com/file/d/1bO1BTazhJGRp66re_tPQpP7-LfEj-rIx/view?usp=sharing]
 
