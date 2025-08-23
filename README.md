@@ -1,4 +1,4 @@
-# TM4C123 LED Blink & Button Interrupt Project
+# TM4C123 LED Blink Project
 
 ## Project Overview
 This project demonstrates basic **GPIO control**, **SysTick timer delays**, and **interrupt-driven input** on the TM4C123 microcontroller.  
