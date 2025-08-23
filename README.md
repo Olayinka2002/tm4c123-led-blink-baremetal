@@ -40,6 +40,6 @@ An external LED is connected to **PA3**, and a push button is connected to **PD5
 - Using Keil Uvision, with the cross compiler and debugger, dowloaded the code to the flash memory of microcontroller
 - If properly setup, the led should start blinking
 
-[Watch the demo video][https://drive.google.com/file/d/1bO1BTazhJGRp66re_tPQpP7-LfEj-rIx/view)]
+[Watch the demo video][https://drive.google.com/file/d/1bO1BTazhJGRp66re_tPQpP7-LfEj-rIx/view?usp=sharing]
 
 
